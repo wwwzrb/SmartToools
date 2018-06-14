@@ -1,0 +1,22 @@
+【无法打开头文件的问题】
+https://www.zhihu.com/question/36684711?sort=created
+
+总结:
+1.你知道你的头文件在哪,
+直接编辑将其添加到includePath
+2.你不知道你的头文件具体在哪,但
+是就在你的工程目录下,将其添加到browse的path里
+
+还有这个扩展也不错：TypeLens
+
+
+【VSCode 格式化代码】
+VSCode 格式化代码
+windows：Shift + Alt + F
+Mac：Shift + Option + F
+Ubuntu： Ctrl + Shift + I
+
+
+【快速定位代码行】
+ctrl + g
+

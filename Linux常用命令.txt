@@ -1,0 +1,211 @@
+1. &:
+在命令之后加上这个符号就表示让程序后台运行
+2. cat:
+显示文件的内容
+3. more 分页显示文件内容   grep
+4. rm:
+删除文件
+5. mkdir:
+6. cp:
+7. stat:
+查看文件信息
+8. find
+查找文件 （Eg: find /root/home/mypath -name "dest.txt"）
+find /root/home/mypath -name "dest.txt" 2>/dev/null   # 不显示错误信息
+9. mv:
+移动或者是重命名文件/文件夹
+10. which:
+查看命令（一般是命令对应的文件）所在的目录
+11. ldd:
+查看程序的依赖共享库
+12. nautils ./
+打开当前目录
+13. strings:
+搜索文件中的所有字符串
+14. top，  htop (需要安装，但是更好用)
+实时查看进程信息
+15. ls -alh myfile
+查看文件的大小
+16. 字符串替换
+:%s/源字符串/目的字符串
+17. 查看进程端口号
+netstat -pan
+18. 查看系统硬件配置
+lshw
+19. 查看内存使用情况
+free -h
+20. 查看文件夹的大小
+du -ah --max-depth=1
+或者 du -ah -d 1
+查看目录的大小：
+du -sbh mydir
+du -sh
+df -hl
+21.查看磁盘大小：
+df -h
+
+22.压缩和解压和查看
+tar -xvf mytar.tar            // 解压 mytar.tar
+tar -cvf mytar.tar mydir      // 把文件夹 mydir 压缩成 mytar.tar
+tar -tvf mytar.tar            // 查看 mytar.tar 中的文件
+tar -xvf mytar.tar -C mydidr  // // 解压 mytar.tar 到指定目录（mydir）
+
+23. ls 按文件大小排序：
+ll -Sh
+ll -Srh
+
+23. ls 按时间排序：
+ll -rt
+
+
+
+21. 挂载文件夹（共享文件夹）
+mount -t vboxsf DangerousDirectory ./E_DangerousFile  #  DangerousDirectory 是共享文件夹名称,  ./E_DangerousFile这个路径要不就用全路径，要不就用 ./xxx的形式。
+http://blog.csdn.net/skylake_/article/details/53132499
+挂载文件夹的时候不要使用 前缀 “sf_”,否则必挂载失败，
+报错：
+/sbin/mount.vboxsf: mounting failed with the error: Protocol error
+是因为没找到原来的文件夹（被挂载的文件夹）
+
+22. 控制台中可上下滚动查看
+tar --help | less
+
+23. 查看磁盘IO使用情况
+iostat 1 5
+(需要自己安装这个软件， sudo apt-get install sysstat)
+
+24. 查看进程信息
+top  或者是更好用的 pstree -p
+htop
+
+25. Debian 取消锁屏
+xset -dpms;xset s off
+
+26. 安装并启动 SSH server
+sudo apt-get install openssh-server
+/etc/init.d/ssh start
+
+27. 查看硬盘分区信息：
+sudo fdisk -l
+
+28. 查看分区信息(UUID等)
+sudo blkid
+
+https://www.cnblogs.com/nucdy/p/5251659.html
+29. 终端常用命令：
+Ctrl xx          在行首和当前光标位置移动
+Ctrl -           缩小终端字体
+Ctrl(Shift) +    放大字体
+Ctrl w	         删除此处到左边的单词
+Ctrl shift f     搜索字符串
+Ctrl k/u	     删除此处至末尾/开始的所有内容
+Ctrl y	         粘贴由 Ctrl+u Ctrl+d Ctrl+w 删除的单词
+Ctrl r	         查找历史命令
+
+30. 搜索目录下的所有文件中的所有内容：
+grep -ri .
+
+31. ln -s source dest
+创建连接要用绝对路径
+
+32. make -j4
+使用四个线程编译
+
+33. 查看gcc的头文件所搜路径
+gcc -v anyfilename.c
+
+34. shell 传递字符串带空格的时候要加上引号
+myfunc "how are you"
+
+35. 统计文件夹或文件
+统计当前文件夹下文件的个数
+ls -l |grep "^-"|wc -l
+统计当前文件夹下目录的个数
+ls -l |grep "^d"|wc -l
+Reference：
+http://www.jb51.net/article/56474.htm
+
+15. 安装peda：
+git clone https://github.com/longld/peda.git ~/peda
+echo "source ~/peda/peda.py" >> ~/.gdbinit
+16. 64位Ubuntu下编译32位程序
+ubuntu上如果要用 -m32 参数就要安装如下的库： 
+$ sudo apt-get install build-essential module-assistant
+$ sudo apt-get install gcc-multilib g++-multilib
+17. apt-get install 无法自动补全的问题：
+vi ~/.bashrc  // 修改下面的代码
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+    . /etc/bash_completion
+fi
+// 然后使其立即生效：
+source ~./bashrc
+
+17. VIM 剪切、复制、删除、粘贴：
+剪切其实也就顺带删除了所选择的内容，所以既可以当剪切命令用，也可以当删除命令使用。
+
+复制代码
+ 1 首先，可以在命令模式下输入v进入自由选取模式，选择需要剪切的文字后，按下d就可以进行剪切了。
+ 2 其他命令模式下剪切命令：
+ 3 dd：剪切当前行
+ 4 ndd：n表示大于1的数字，剪切n行
+ 5 dw：从光标处剪切至一个单子/单词的末尾，包括空格
+ 6 de：从光标处剪切至一个单子/单词的末尾，不包括空格
+ 7 d$：从当前光标剪切到行末
+ 8 d0：从当前光标位置（不包括光标位置）剪切之行首
+ 9 d3l：从光标位置（包括光标位置）向右剪切3个字符
+10 d5G：将当前行（包括当前行）至第5行（不包括它）剪切
+11 d3B：从当前光标位置（不包括光标位置）反向剪切3个单词
+12 dH：剪切从当前行至所显示屏幕顶行的全部行
+13 dM：剪切从当前行至命令M所指定行的全部行
+14 dL：剪切从当前行至所显示屏幕底的全部行
+15 yaw/yw/ y1w: 复制一个单词
+16 shift + g : 跳转到文件末尾
+17 gg : 跳转到文件开头
+18 按数字之后再按上下左右键可以快速跳转
+19 w 和 b 是左右移动一个单词
+
+复制代码
+自己实践时，还发现，单独按d键，是剪切2行，按下nd，是剪切n+1行，不过一般使用还是推荐使用双d（即dd）来执行。
+
+对于复制命令，和剪切命令大体相似，就是把相应的d换成y即可：
+
+复制代码
+首先，可以在命令模式下输入v进入自由选取模式，选择需要剪切的文字后，按下d就可以进行剪切了。
+其他命令模式下剪切命令：
+yy：复制当前行
+nyy：n表示大于1的数字，复制n行
+yw：从光标处复制至一个单子/单词的末尾，包括空格
+ye：从光标处复制至一个单子/单词的末尾，不包括空格
+y$：从当前光标复制到行末
+y0：从当前光标位置（不包括光标位置）复制之行首
+y3l：从光标位置（包括光标位置）向右复制3个字符
+y5G：将当前行（包括当前行）至第5行（不包括它）复制
+y3B：从当前光标位置（不包括光标位置）反向复制3个单词
+复制代码
+单独按y是复制2行，ny是复制n+1行
+
+至于粘贴命令最简单，在需要粘贴的光标处按下p即可。
+
+ctrl + ↑ ： 将光标移到行末
+i：在当前字符的左边插入
+I：在当前行首插入
+a：在当前字符的右边插入
+A：在当前行尾插入
+o：在当前行下面插入一个新行
+O：在当前行上面插入一个新行
+
+将光标移动到所找单词
+1: shift + "*"  向下查找并高亮显示
+2: shift + "#"  向上查找并高亮显示
+
+【shell 中执行命令不需要 ``】
+例如：
+#！/bin/bash
+a="ls -al"
+$a    # 这样就可以了，就是执行这个命令了，而不是要 `$a` 这样写
+
+
+

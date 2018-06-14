@@ -1,0 +1,238 @@
+
+gdb中反汇编调试
+
+format的取值范围有如下几种：
+x 按十六进制格式显示变量。
+d 按十进制格式显示变量。
+u 按十六进制格式显示无符号整型。
+o 按八进制格式显示变量。
+t 按二进制格式显示变量。
+a 按十六进制格式显示变量。
+c 按字符格式显示变量。
+f 按浮点数格式显示变量。
+
+
+http://www.cnblogs.com/ggjucheng/archive/2011/12/14/2288004.html#_Toc311658091
+
+【1.在某一个文件的某一行下断点】
+b filename:linenumber
+
+【2.在某个文件的某个函数下断点】
+b filename:funcname
+
+【3.显示变量类型】
+https://wizardforcel.gitbooks.io/100-gdb-tips/print-variable-info.html
+whatis varname
+ptype varname
+i variables varname
+
+【4.gdb还可以直接调用里面的函数】
+p funcname()
+
+【5.gdb/gef 设置显示代码的行数】
+set listsize 20
+
+
+http://blog.csdn.net/gatieme/article/details/63254211
+peda 安装：
+git clone https://github.com/longld/peda.git ~/peda
+echo source "~/peda/peda.py" >> ~/.gdbinit
+gef插件：
+wget -q -O ~/.gdbinit-gef.py https://github.com/hugsy/gef/raw/master/gef.py
+echo source "~/.gdbinit-gef.py" >> ~/.gdbinit
+
+x/<n/f/u> <addr>
+
+n、f、u是可选的参数。
+
+n是一个正整数，表示显示内存的长度，也就是说从当前地址向后显示几个地址的内容。
+f 表示显示的格式，参见上面。如果地址所指的是字符串，那么格式可以是s，如果 地址是指令地址，那么格式可以是i。
+u 表示从当前地址往后请求的字节数，如果不指定的话，GDB默认是4个bytes。u参数可以用下面的字符来代替，b表示单字节，h表示双字节，w表示四字 节，g表示八字节。当我们指定了字节长度后，GDB会从指内存定的内存地址开始，读写指定字节，并把其当作一个值取出来。
+
+
+gdb ./helloword 
+ (gdb)set args 参数
+ (gdb)x/s rdx  显示rdx寄存器中的内容
+ (gdb)diassemble helloword   // 反编译出来
+ (gdb)info locals   // 查看当前函数的局部变量信息
+ (gdb)bt    // 查看堆栈信息
+  x/20xg 0x88888888  // 以八个字节为单位显示20组数据
+  x/20xw 0x88888888  // 以四个字节为单位显示20组数据
+  nearpc             // 查看 pc 指令的前后八条指令
+  nearpc 30         // 查看 pc 指令的前后30条指令
+  bt                // 查看调用堆栈
+  checksec
+  finish 运行到函数返回
+  return 直接返回，可直接指定返回地址
+  set *(unsigned int*0x0804b400)=0   // 修改内存
+ (gdb)x /30x $esp    // 查看栈中的信息
+  stack 20 
+ (gdb)info registers   // 显示所有的寄存器信息
+  delete 1             // 删除第一个断点
+
+(gdb) set disassembly-flavor intel  // Intel风格, 这个特别有用
+
+(gdb) b main   //对main函数下断点
+
+(gdb) disas  /r 0x401365,0x401370  //反汇编一段内存地址
+
+(gdb) si   //执行下一步汇编指令
+
+(gdb)display /ni $pc    //$pc 代表当前n个汇编指令，/i 表示以十六进行显示。
+
+(gdb) b *地址
+
+(gdb) i r 寄存器
+
+查看内存地址的值
+
+(gdb) x /nx 地址     //x以十六进制显示n个内存单元的值
+
+(gdb) x /nc 地址    \\c以字符形式显示n个内存单元的值
+
+
+
+
+(gdb)x /5i address   // 显示地址从address开始的汇编码
+
+
+
+
+j命令                回跳
+
+ret                 设置返回值          (例ret 0/ret -1)
+
+
+
+
+
+一个调试示例
+——————
+
+源程序：tst.c
+
+     1 #include <stdio.h>
+     2
+     3 int func(int n)
+     4 {
+     5         int sum=0,i;
+     6         for(i=0; i<n; i++)
+     7         {
+     8                 sum+=i;
+     9         }
+    10         return sum;
+    11 }
+    12
+    13
+    14 main()
+    15 {
+    16         int i;
+    17         long result = 0;
+    18         for(i=1; i<=100; i++)
+    19         {
+    20                 result += i;
+    21         }
+    22
+    23        printf("result[1-100] = %d /n", result );
+    24        printf("result[1-250] = %d /n", func(250) );
+    25 }
+
+编译生成执行文件：（Linux下）
+    hchen/test> cc -g tst.c -o tst
+
+使用GDB调试：
+
+hchen/test> gdb tst  <---------- 启动GDB
+GNU gdb 5.1.1
+Copyright 2002 Free Software Foundation, Inc.
+GDB is free software, covered by the GNU General Public License, and you are
+welcome to change it and/or distribute copies of it under certain conditions.
+Type "show copying" to see the conditions.
+There is absolutely no warranty for GDB.  Type "show warranty" for details.
+This GDB was configured as "i386-suse-linux"...
+(gdb) l     <-------------------- l命令相当于list，从第一行开始例出原码。
+1        #include <stdio.h>
+2
+3        int func(int n)
+4        {
+5                int sum=0,i;
+6                for(i=0; i<n; i++)
+7                {
+8                        sum+=i;
+9                }
+10               return sum;
+(gdb)       <-------------------- 直接回车表示，重复上一次命令
+11       }
+12
+13
+14       main()
+15       {
+16               int i;
+17               long result = 0;
+18               for(i=1; i<=100; i++)
+19               {
+20                       result += i;    
+(gdb) break 16    <-------------------- 设置断点，在源程序第16行处。
+Breakpoint 1 at 0x8048496: file tst.c, line 16.
+(gdb) break func  <-------------------- 设置断点，在函数func()入口处。
+Breakpoint 2 at 0x8048456: file tst.c, line 5.
+(gdb) info break  <-------------------- 查看断点信息。
+Num Type           Disp Enb Address    What
+1   breakpoint     keep y   0x08048496 in main at tst.c:16
+2   breakpoint     keep y   0x08048456 in func at tst.c:5
+(gdb) r           <--------------------- 运行程序，run命令简写
+Starting program: /home/hchen/test/tst
+
+Breakpoint 1, main () at tst.c:17    <---------- 在断点处停住。
+17               long result = 0;
+(gdb) n          <--------------------- 单条语句执行，next命令简写。
+18               for(i=1; i<=100; i++)
+(gdb) n
+20                       result += i;
+(gdb) n
+18               for(i=1; i<=100; i++)
+(gdb) n
+20                       result += i;
+(gdb) c          <--------------------- 继续运行程序，continue命令简写。
+Continuing.
+result[1-100] = 5050       <----------程序输出。
+
+Breakpoint 2, func (n=250) at tst.c:5
+5                int sum=0,i;
+(gdb) n
+6                for(i=1; i<=n; i++)
+(gdb) p i        <--------------------- 打印变量i的值，print命令简写。
+$1 = 134513808
+(gdb) n
+8                        sum+=i;
+(gdb) n
+6                for(i=1; i<=n; i++)
+(gdb) p sum
+$2 = 1
+(gdb) n
+8                        sum+=i;
+(gdb) p i
+$3 = 2
+(gdb) n
+6                for(i=1; i<=n; i++)
+(gdb) p sum
+$4 = 3
+(gdb) bt        <--------------------- 查看函数堆栈。
+#0  func (n=250) at tst.c:5
+#1  0x080484e4 in main () at tst.c:24
+#2  0x400409ed in __libc_start_main () from /lib/libc.so.6
+(gdb) finish    <--------------------- 退出函数。
+Run till exit from #0  func (n=250) at tst.c:5
+0x080484e4 in main () at tst.c:24
+24              printf("result[1-250] = %d /n", func(250) );
+Value returned is $6 = 31375
+(gdb) c     <--------------------- 继续运行。
+Continuing.
+result[1-250] = 31375    <----------程序输出。
+
+Program exited with code 027. <--------程序退出，调试结束。
+(gdb) q     <--------------------- 退出gdb。
+hchen/test>
+
+
+

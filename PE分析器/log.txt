@@ -1,0 +1,658 @@
+2017/06/16 14:12:45 - Free resource success.
+
+
+2017/06/16 14:12:45 - Initialize global variables success.
+2017/06/16 14:12:45 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/16 14:12:45 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/16 14:12:45 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/16 14:12:45 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/16 14:12:45 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/16 14:12:45 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/06/16 14:12:45 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/06/16 15:15:03 - Free resource success.
+
+
+2017/06/17 07:45:26 - Free resource success.
+
+
+2017/06/17 07:45:26 - Initialize global variables success.
+2017/06/17 07:45:26 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/17 07:45:26 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/17 07:45:26 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/17 07:45:26 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/17 07:45:26 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/17 07:45:26 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/06/17 07:45:26 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/06/17 07:47:24 - DOS_STUB                  : EQUAL               
+2017/06/17 07:48:24 - Free resource success.
+
+
+2017/06/17 07:50:26 - Free resource success.
+
+
+2017/06/17 07:50:26 - Initialize global variables success.
+2017/06/17 07:50:26 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/17 07:50:26 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/17 07:50:26 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/17 07:50:26 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/17 07:50:26 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/17 07:50:26 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/06/17 07:50:26 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/06/17 08:04:00 - Free resource success.
+
+
+2017/06/27 20:37:49 - Free resource success.
+
+
+2017/06/27 20:37:49 - Initialize global variables success.
+2017/06/27 20:37:49 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/27 20:37:49 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/27 20:37:49 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/27 20:37:49 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/27 20:37:49 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/27 20:37:49 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/27 20:38:01 - Initialize global variables success.
+2017/06/27 20:38:43 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/06/27 20:39:18 - ERROR in function : GetResourceIconDataDefault() !!!ERROR CODE:¡¾0x40000001¡¿ -> [User defined error code] Specify resource not found.
+2017/06/27 20:39:18 - ERROR in function : GetResourceIconDataDefault() !!!ERROR CODE:¡¾0x40000001¡¿ -> [User defined error code] Specify resource not found.
+2017/06/27 20:39:46 - Free resource success.
+
+
+2017/06/27 22:27:16 - Free resource success.
+
+
+2017/06/27 22:27:16 - Initialize global variables success.
+2017/06/27 22:27:16 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/27 22:27:16 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/27 22:27:16 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/27 22:27:16 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/27 22:27:16 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/27 22:27:16 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/27 22:27:28 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/06/27 22:27:28 - IMAGE_IMPORT_TABLE        : EQUAL               
+2017/06/27 22:28:54 - IMAGE_EXPORT_TABLE        : EQUAL               
+2017/06/27 22:29:37 - Free resource success.
+
+
+2017/06/27 22:29:37 - Initialize global variables success.
+2017/06/27 22:29:37 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/27 22:29:37 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/27 22:29:37 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/27 22:29:37 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/27 22:29:37 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/27 22:29:37 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/27 22:29:38 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/06/27 22:29:46 - IMAGE_IMPORT_TABLE        : EQUAL               
+2017/06/27 22:48:04 - ERROR in function : GetResourceIconDataDefault() !!!ERROR CODE:¡¾0x40000001¡¿ -> [User defined error code] Specify resource not found.
+2017/06/27 22:48:04 - ERROR in function : GetResourceIconDataDefault() !!!ERROR CODE:¡¾0x40000001¡¿ -> [User defined error code] Specify resource not found.
+2017/06/27 23:17:35 - Free resource success.
+
+
+2017/06/28 20:49:17 - Free resource success.
+
+
+2017/06/28 20:49:17 - Initialize global variables success.
+2017/06/28 20:49:17 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 20:49:17 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/28 20:49:17 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/28 20:49:17 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/28 20:49:17 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/28 20:49:17 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/28 20:49:31 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/06/28 20:49:31 - IMAGE_EXPORT_TABLE        : EQUAL               
+2017/06/28 20:53:06 - DOS_STUB                  : EQUAL               
+2017/06/28 21:13:49 - Free resource success.
+
+
+2017/06/28 21:13:49 - Initialize global variables success.
+2017/06/28 21:13:49 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 21:13:49 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/28 21:13:49 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/28 21:13:49 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/28 21:13:49 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/28 21:13:49 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/28 21:13:53 - Free resource success.
+
+
+2017/06/28 21:26:07 - Free resource success.
+
+
+2017/06/28 21:26:07 - Initialize global variables success.
+2017/06/28 21:26:07 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 21:26:33 - Free resource success.
+
+
+2017/06/28 21:26:33 - Initialize global variables success.
+2017/06/28 21:26:33 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 21:26:56 - Free resource success.
+
+
+2017/06/28 21:26:56 - Initialize global variables success.
+2017/06/28 21:26:56 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 21:32:35 - Free resource success.
+
+
+2017/06/28 21:32:35 - Initialize global variables success.
+2017/06/28 21:32:35 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 21:32:35 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/28 21:32:35 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/28 21:32:35 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/28 21:32:35 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/28 21:32:35 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/28 21:32:37 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/06/28 21:32:37 - IMAGE_IMPORT_TABLE        : EQUAL               
+2017/06/28 21:44:35 - Free resource success.
+
+
+2017/06/28 21:44:35 - Initialize global variables success.
+2017/06/28 21:44:35 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 21:44:35 - IMAGE_FILE_HEADER         : NOT EQUAL           
+2017/06/28 21:44:35 - IMAGE_OPTIONAL_HEADER     : NOT EQUAL           
+2017/06/28 21:44:35 - IMAGE_NT_HEADER           : NOT EQUAL           
+2017/06/28 21:44:35 - IMAGE_DATA_DIRECTORY      : NOT EQUAL           
+2017/06/28 21:44:35 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/28 21:44:39 - IMAGE_SECTION_TABLE       : NOT EQUAL           
+2017/06/28 21:44:39 - IMAGE_EXPORT_TABLE        : NOT EQUAL           
+2017/06/28 21:44:44 - IMAGE_IMPORT_TABLE        : NOT EQUAL           
+2017/06/28 21:53:34 - Free resource success.
+
+
+2017/06/28 22:16:14 - Free resource success.
+
+
+2017/06/28 22:16:14 - Initialize global variables success.
+2017/06/28 22:16:14 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 22:16:14 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/28 22:16:14 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/28 22:16:14 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/28 22:16:14 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/28 22:16:14 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/28 22:16:34 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/06/28 22:19:12 - Free resource success.
+
+
+2017/06/28 22:19:12 - Initialize global variables success.
+2017/06/28 22:19:12 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 22:19:12 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/28 22:19:12 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/28 22:19:12 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/28 22:19:12 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/28 22:19:12 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/28 22:19:13 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/06/28 22:27:00 - Free resource success.
+
+
+2017/06/28 22:27:00 - Initialize global variables success.
+2017/06/28 22:27:00 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 22:27:00 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/28 22:27:00 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/28 22:27:00 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/28 22:36:46 - Free resource success.
+
+
+2017/06/28 22:36:46 - Initialize global variables success.
+2017/06/28 22:36:46 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 22:36:46 - IMAGE_FILE_HEADER         : NOT EQUAL           
+2017/06/28 22:36:46 - IMAGE_OPTIONAL_HEADER     : NOT EQUAL           
+2017/06/28 22:36:46 - IMAGE_NT_HEADER           : NOT EQUAL           
+2017/06/28 22:36:46 - IMAGE_DATA_DIRECTORY      : NOT EQUAL           
+2017/06/28 22:36:46 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/28 22:36:54 - IMAGE_SECTION_TABLE       : NOT EQUAL           
+2017/06/28 22:36:54 - ERROR in function : InitializeExportFunctionPartialCodeTable() !!!ERROR CODE:¡¾0x0¡¿ -> The operation completed successfully.
+2017/06/28 22:36:54 - IMAGE_EXPORT_TABLE        : NOT EQUAL           
+2017/06/28 22:38:40 - Free resource success.
+
+
+2017/06/28 22:38:40 - Initialize global variables success.
+2017/06/28 22:38:40 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 22:38:40 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/28 22:38:40 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/28 22:38:40 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/28 22:38:40 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/28 22:38:40 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/28 22:38:47 - Free resource success.
+
+
+2017/06/28 22:38:47 - Initialize global variables success.
+2017/06/28 22:38:47 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 22:38:47 - IMAGE_FILE_HEADER         : NOT EQUAL           
+2017/06/28 22:38:47 - IMAGE_OPTIONAL_HEADER     : NOT EQUAL           
+2017/06/28 22:38:47 - IMAGE_NT_HEADER           : NOT EQUAL           
+2017/06/28 22:38:47 - IMAGE_DATA_DIRECTORY      : NOT EQUAL           
+2017/06/28 22:38:47 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/28 22:38:54 - IMAGE_SECTION_TABLE       : NOT EQUAL           
+2017/06/28 22:38:54 - ERROR in function : InitializeExportFunctionPartialCodeTable() !!!ERROR CODE:¡¾0x0¡¿ -> The operation completed successfully.
+2017/06/28 22:38:54 - IMAGE_EXPORT_TABLE        : NOT EQUAL           
+2017/06/28 22:40:45 - Free resource success.
+
+
+2017/06/28 22:40:45 - Initialize global variables success.
+2017/06/28 22:40:45 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 22:40:45 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/28 22:40:45 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/28 22:40:45 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/28 22:40:45 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/28 22:40:45 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/28 22:41:05 - Free resource success.
+
+
+2017/06/28 22:41:05 - Initialize global variables success.
+2017/06/28 22:41:05 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/28 22:41:05 - IMAGE_FILE_HEADER         : NOT EQUAL           
+2017/06/28 22:41:05 - IMAGE_OPTIONAL_HEADER     : NOT EQUAL           
+2017/06/28 22:41:05 - IMAGE_NT_HEADER           : NOT EQUAL           
+2017/06/28 22:41:05 - IMAGE_DATA_DIRECTORY      : NOT EQUAL           
+2017/06/28 22:41:05 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/06/28 22:41:07 - IMAGE_SECTION_TABLE       : NOT EQUAL           
+2017/06/28 22:41:07 - ERROR in function : InitializeExportFunctionPartialCodeTable() !!!ERROR CODE:¡¾0x0¡¿ -> The operation completed successfully.
+2017/06/28 22:41:07 - IMAGE_EXPORT_TABLE        : NOT EQUAL           
+2017/06/28 22:51:14 - Free resource success.
+
+
+2017/06/29 08:13:57 - Free resource success.
+
+
+2017/06/29 08:13:57 - Initialize global variables success.
+2017/06/29 08:13:57 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/29 08:13:57 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/29 08:13:57 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/29 08:13:57 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/29 08:14:06 - Free resource success.
+
+
+2017/06/29 08:19:32 - Free resource success.
+
+
+2017/06/29 08:19:32 - Initialize global variables success.
+2017/06/29 08:19:32 - IMAGE_DOS_HEADER          : EQUAL               
+2017/06/29 08:19:32 - IMAGE_FILE_HEADER         : EQUAL               
+2017/06/29 08:19:32 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/06/29 08:19:32 - IMAGE_NT_HEADER           : EQUAL               
+2017/06/29 08:19:32 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/06/29 08:19:32 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/06/29 08:19:32 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/06/29 13:40:20 - Free resource success.
+
+
+2017/07/03 15:12:35 - Free resource success.
+
+
+2017/07/03 15:12:35 - Initialize global variables success.
+2017/07/03 15:12:35 - IMAGE_DOS_HEADER          : EQUAL               
+2017/07/03 15:26:30 - Free resource success.
+
+
+2017/07/03 15:26:30 - Initialize global variables success.
+2017/07/03 15:26:30 - IMAGE_DOS_HEADER          : EQUAL               
+2017/07/03 15:26:30 - IMAGE_FILE_HEADER         : EQUAL               
+2017/07/03 15:26:30 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/07/03 15:26:30 - IMAGE_NT_HEADER           : EQUAL               
+2017/07/03 15:26:30 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/07/03 15:26:30 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/07/03 15:26:30 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/07/03 15:43:37 - Free resource success.
+
+
+2017/07/04 12:14:24 - Free resource success.
+
+
+2017/07/04 12:14:24 - Initialize global variables success.
+2017/07/04 12:14:24 - IMAGE_DOS_HEADER          : EQUAL               
+2017/07/04 12:14:24 - IMAGE_FILE_HEADER         : EQUAL               
+2017/07/04 12:14:24 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/07/04 12:14:24 - IMAGE_NT_HEADER           : EQUAL               
+2017/07/04 12:14:24 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/07/04 12:14:24 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/07/04 12:14:24 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/07/04 12:14:27 - IMAGE_IMPORT_TABLE        : EQUAL               
+2017/07/04 12:15:14 - Free resource success.
+
+
+2017/07/04 12:15:20 - Free resource success.
+
+
+2017/07/04 12:15:20 - Initialize global variables success.
+2017/07/04 12:15:20 - IMAGE_DOS_HEADER          : EQUAL               
+2017/07/04 12:15:20 - IMAGE_FILE_HEADER         : EQUAL               
+2017/07/04 12:15:20 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/07/04 12:15:20 - IMAGE_NT_HEADER           : EQUAL               
+2017/07/04 12:15:20 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/07/04 12:15:20 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/07/04 12:15:20 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/07/04 12:15:27 - IMAGE_IMPORT_TABLE        : EQUAL               
+2017/07/04 12:30:53 - Free resource success.
+
+
+2017/07/04 22:01:29 - Free resource success.
+
+
+2017/07/04 22:01:30 - Initialize global variables success.
+2017/07/04 22:01:30 - IMAGE_DOS_HEADER          : EQUAL               
+2017/07/04 22:01:30 - IMAGE_FILE_HEADER         : EQUAL               
+2017/07/04 22:01:30 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/07/04 22:01:30 - IMAGE_NT_HEADER           : EQUAL               
+2017/07/04 22:01:30 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/07/04 22:01:30 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/07/04 22:01:30 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/07/04 22:01:35 - IMAGE_IMPORT_TABLE        : EQUAL               
+2017/07/04 22:04:46 - Free resource success.
+
+
+2017/07/04 22:04:46 - Initialize global variables success.
+2017/07/04 22:04:46 - IMAGE_DOS_HEADER          : NOT EQUAL           
+2017/07/04 22:04:46 - IMAGE_FILE_HEADER         : NOT EQUAL           
+2017/07/04 22:04:46 - IMAGE_OPTIONAL_HEADER     : NOT EQUAL           
+2017/07/04 22:04:46 - IMAGE_NT_HEADER           : NOT EQUAL           
+2017/07/04 22:04:46 - IMAGE_DATA_DIRECTORY      : NOT EQUAL           
+2017/07/04 22:04:46 - IMAGE_SECTION_TABLE       : NOT EQUAL           
+2017/07/04 22:04:46 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/07/04 22:04:49 - ERROR in function : InitializeExportFunctionPartialCodeTable() !!!ERROR CODE:¡¾0x0¡¿ -> The operation completed successfully.
+2017/07/04 22:04:49 - IMAGE_EXPORT_TABLE        : NOT EQUAL           
+2017/07/04 22:05:13 - IMAGE_IMPORT_TABLE        : NOT EQUAL           
+2017/07/04 22:42:42 - Free resource success.
+
+
+2017/07/05 20:03:56 - Free resource success.
+
+
+2017/07/05 20:03:56 - Initialize global variables success.
+2017/07/05 20:03:56 - IMAGE_DOS_HEADER          : EQUAL               
+2017/07/05 20:03:56 - IMAGE_FILE_HEADER         : EQUAL               
+2017/07/05 20:03:56 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/07/05 20:03:56 - IMAGE_NT_HEADER           : EQUAL               
+2017/07/05 20:03:56 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/07/05 20:03:56 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/07/05 20:03:56 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/07/05 20:04:00 - IMAGE_IMPORT_TABLE        : EQUAL               
+2017/07/05 20:05:16 - IMAGE_EXPORT_TABLE        : EQUAL               
+2017/07/05 20:07:09 - Free resource success.
+
+
+2017/07/06 12:37:46 - Free resource success.
+
+
+2017/07/06 12:37:46 - Initialize global variables success.
+2017/07/06 12:37:46 - IMAGE_DOS_HEADER          : EQUAL               
+2017/07/06 12:37:46 - IMAGE_FILE_HEADER         : EQUAL               
+2017/07/06 12:37:46 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/07/06 12:37:46 - IMAGE_NT_HEADER           : EQUAL               
+2017/07/06 12:37:46 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/07/06 12:37:46 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/07/06 12:37:46 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/07/06 12:37:48 - IMAGE_IMPORT_TABLE        : EQUAL               
+2017/07/25 10:08:37 - Free resource success.
+
+
+2017/07/25 10:08:37 - Initialize global variables success.
+2017/07/25 10:08:37 - IMAGE_DOS_HEADER          : EQUAL               
+2017/07/27 09:15:50 - Free resource success.
+
+
+2017/07/27 09:15:50 - Initialize global variables success.
+2017/07/27 09:15:50 - IMAGE_DOS_HEADER          : EQUAL               
+2017/07/27 09:15:50 - IMAGE_FILE_HEADER         : EQUAL               
+2017/07/27 09:15:50 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/07/27 09:15:50 - IMAGE_NT_HEADER           : EQUAL               
+2017/07/27 09:15:50 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/07/27 09:15:50 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/07/27 09:34:38 - Free resource success.
+
+
+2017/08/16 17:13:10 - Free resource success.
+
+
+2017/08/16 17:13:10 - Initialize global variables success.
+2017/08/16 17:13:10 - IMAGE_DOS_HEADER          : EQUAL               
+2017/08/16 17:13:10 - IMAGE_FILE_HEADER         : EQUAL               
+2017/08/16 17:13:10 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/08/16 17:13:10 - IMAGE_NT_HEADER           : EQUAL               
+2017/08/16 17:13:10 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/08/16 17:13:10 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/08/16 17:13:15 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/08/16 17:13:15 - IMAGE_IMPORT_TABLE        : EQUAL               
+2017/08/16 17:13:32 - IMAGE_EXPORT_TABLE        : EQUAL               
+2017/08/16 17:14:02 - Free resource success.
+
+
+2017/09/25 18:04:19 - Free resource success.
+
+
+2017/09/25 18:04:19 - Initialize global variables success.
+2017/09/25 18:04:19 - IMAGE_DOS_HEADER          : EQUAL               
+2017/09/25 18:04:19 - IMAGE_FILE_HEADER         : EQUAL               
+2017/09/25 18:04:19 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/09/25 18:04:19 - IMAGE_NT_HEADER           : EQUAL               
+2017/09/25 18:04:19 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/09/25 18:04:19 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/09/25 18:04:19 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/09/25 18:44:36 - Free resource success.
+
+
+2017/09/25 18:44:36 - Initialize global variables success.
+2017/09/25 18:44:36 - IMAGE_DOS_HEADER          : EQUAL               
+2017/09/25 18:44:36 - IMAGE_FILE_HEADER         : EQUAL               
+2017/09/25 18:44:36 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/09/25 18:44:36 - IMAGE_NT_HEADER           : EQUAL               
+2017/09/25 18:44:36 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/09/25 18:44:36 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/09/25 18:44:36 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/09/25 18:52:20 - Free resource success.
+
+
+2017/09/25 19:47:24 - Free resource success.
+
+
+2017/09/25 19:47:24 - Initialize global variables success.
+2017/09/25 19:47:24 - IMAGE_DOS_HEADER          : EQUAL               
+2017/09/25 19:47:24 - IMAGE_FILE_HEADER         : EQUAL               
+2017/09/25 19:47:24 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/09/25 19:47:24 - IMAGE_NT_HEADER           : EQUAL               
+2017/09/25 19:47:24 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/09/25 19:47:24 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/09/25 19:47:24 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/09/25 20:21:16 - Free resource success.
+
+
+2017/09/28 18:23:35 - Free resource success.
+
+
+2017/09/28 18:23:35 - Initialize global variables success.
+2017/09/28 18:23:35 - IMAGE_DOS_HEADER          : EQUAL               
+2017/09/28 18:23:35 - IMAGE_FILE_HEADER         : EQUAL               
+2017/09/28 18:23:35 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/09/28 18:23:35 - IMAGE_NT_HEADER           : EQUAL               
+2017/09/28 18:23:35 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/09/28 18:23:35 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/09/28 18:23:35 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/09/28 18:23:37 - IMAGE_EXPORT_TABLE        : EQUAL               
+2017/09/28 18:23:49 - IMAGE_IMPORT_TABLE        : EQUAL               
+2017/09/28 18:54:59 - Free resource success.
+
+
+2017/10/14 21:45:19 - Free resource success.
+
+
+2017/10/14 21:45:19 - Initialize global variables success.
+2017/10/14 21:45:19 - IMAGE_DOS_HEADER          : EQUAL               
+2017/10/14 21:45:19 - IMAGE_FILE_HEADER         : EQUAL               
+2017/10/14 21:45:19 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/10/14 21:45:19 - IMAGE_NT_HEADER           : EQUAL               
+2017/10/14 21:45:19 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/10/14 21:45:19 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/10/14 21:45:19 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/10/14 21:45:22 - ERROR in function : InitializeExportFunctionPartialCodeTable() !!!ERROR CODE:¡¾0x0¡¿ -> The operation completed successfully.
+2017/10/14 21:45:22 - ERROR in function : InitializeExportFunctionPartialCodeTable() !!!ERROR CODE:¡¾0x0¡¿ -> The operation completed successfully.
+2017/10/14 21:45:22 - IMAGE_EXPORT_TABLE        : NOT EQUAL           
+2017/10/14 21:48:11 - Free resource success.
+
+
+2017/11/29 16:08:21 - Free resource success.
+
+
+2017/11/29 16:08:21 - Initialize global variables success.
+2017/11/29 16:08:21 - IMAGE_DOS_HEADER          : EQUAL               
+2017/11/29 16:08:35 - Free resource success.
+
+
+2017/11/29 16:08:35 - Initialize global variables success.
+2017/11/29 16:08:35 - IMAGE_DOS_HEADER          : EQUAL               
+2017/11/29 16:08:35 - IMAGE_FILE_HEADER         : EQUAL               
+2017/11/29 16:08:35 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/11/29 16:08:35 - IMAGE_NT_HEADER           : EQUAL               
+2017/11/29 16:08:35 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/11/29 16:08:35 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2017/11/29 16:08:40 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/11/29 16:08:40 - IMAGE_EXPORT_TABLE        : EQUAL               
+2017/11/29 16:10:11 - Free resource success.
+
+
+2017/12/01 21:46:22 - Free resource success.
+
+
+2017/12/01 21:46:22 - Initialize global variables success.
+2017/12/01 21:46:22 - IMAGE_DOS_HEADER          : EQUAL               
+2017/12/01 21:46:22 - IMAGE_FILE_HEADER         : EQUAL               
+2017/12/01 21:46:22 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/12/01 21:46:22 - IMAGE_NT_HEADER           : EQUAL               
+2017/12/01 21:46:22 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2017/12/01 21:46:22 - IMAGE_SECTION_TABLE       : EQUAL               
+2017/12/01 21:46:22 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2017/12/01 21:46:27 - Free resource success.
+
+
+2017/12/01 21:46:27 - Initialize global variables success.
+2017/12/01 21:46:27 - IMAGE_DOS_HEADER          : EQUAL               
+2017/12/01 21:46:27 - IMAGE_FILE_HEADER         : EQUAL               
+2017/12/01 21:46:27 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2017/12/01 21:46:27 - IMAGE_NT_HEADER           : EQUAL               
+2017/12/01 21:46:29 - Free resource success.
+
+
+2018/01/04 17:07:44 - Free resource success.
+
+
+2018/01/04 17:07:44 - Initialize global variables success.
+2018/01/04 17:07:44 - IMAGE_DOS_HEADER          : EQUAL               
+2018/01/04 17:07:44 - IMAGE_FILE_HEADER         : EQUAL               
+2018/01/04 17:07:44 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2018/01/04 17:07:44 - IMAGE_NT_HEADER           : EQUAL               
+2018/01/04 17:07:44 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2018/01/04 17:07:44 - IMAGE_RESOURCE_TABLE      : EQUAL               
+2018/01/04 17:07:46 - IMAGE_SECTION_TABLE       : EQUAL               
+2018/01/04 17:07:46 - IMAGE_EXPORT_TABLE        : EQUAL               
+2018/01/04 17:09:58 - Free resource success.
+
+
+2018/03/07 21:33:51 - Free resource success.
+
+
+2018/03/07 21:33:51 - Initialize global variables success.
+2018/03/07 21:33:51 - IMAGE_DOS_HEADER          : EQUAL               
+2018/03/07 21:33:51 - IMAGE_FILE_HEADER         : EQUAL               
+2018/03/07 21:33:51 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2018/03/07 21:33:51 - IMAGE_NT_HEADER           : EQUAL               
+2018/03/07 21:33:51 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2018/03/07 21:33:51 - IMAGE_SECTION_TABLE       : EQUAL               
+2018/03/07 21:33:51 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2018/03/07 21:33:52 - IMAGE_IMPORT_TABLE        : EQUAL               
+2018/03/07 21:33:55 - IMAGE_EXPORT_TABLE        : EQUAL               
+2018/03/07 21:34:08 - Free resource success.
+
+
+2018/03/11 21:14:14 - Free resource success.
+
+
+2018/03/11 21:14:14 - Initialize global variables success.
+2018/03/11 21:14:14 - IMAGE_DOS_HEADER          : EQUAL               
+2018/03/11 21:14:14 - IMAGE_FILE_HEADER         : EQUAL               
+2018/03/11 21:14:14 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2018/03/11 21:14:14 - IMAGE_NT_HEADER           : EQUAL               
+2018/03/11 21:14:14 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2018/03/11 21:14:14 - IMAGE_SECTION_TABLE       : EQUAL               
+2018/03/11 21:14:14 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2018/03/11 21:17:40 - IMAGE_IMPORT_TABLE        : EQUAL               
+2018/03/11 21:17:47 - IMAGE_EXPORT_TABLE        : EQUAL               
+2018/03/11 21:19:51 - Free resource success.
+
+
+2018/03/11 21:19:51 - Initialize global variables success.
+2018/03/11 21:19:51 - IMAGE_DOS_HEADER          : EQUAL               
+2018/03/11 21:19:51 - IMAGE_FILE_HEADER         : EQUAL               
+2018/03/11 21:19:51 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2018/03/11 21:19:51 - IMAGE_NT_HEADER           : EQUAL               
+2018/03/11 21:19:51 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2018/03/11 21:19:51 - IMAGE_SECTION_TABLE       : EQUAL               
+2018/03/11 21:19:51 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2018/03/11 21:29:01 - Free resource success.
+
+
+2018/03/13 17:49:03 - Free resource success.
+
+
+2018/03/13 17:49:03 - Initialize global variables success.
+2018/03/13 17:49:03 - IMAGE_DOS_HEADER          : EQUAL               
+2018/03/13 17:49:03 - IMAGE_FILE_HEADER         : EQUAL               
+2018/03/13 17:49:03 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2018/03/13 17:49:03 - IMAGE_NT_HEADER           : EQUAL               
+2018/03/13 17:49:03 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2018/03/13 17:49:03 - IMAGE_SECTION_TABLE       : EQUAL               
+2018/03/13 17:49:03 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2018/03/13 17:49:29 - Free resource success.
+
+
+2018/03/13 17:49:29 - Initialize global variables success.
+2018/03/13 17:49:29 - IMAGE_DOS_HEADER          : EQUAL               
+2018/03/13 17:49:29 - IMAGE_FILE_HEADER         : EQUAL               
+2018/03/13 17:49:29 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2018/03/13 17:49:29 - IMAGE_NT_HEADER           : EQUAL               
+2018/03/13 17:49:29 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2018/03/13 17:49:29 - IMAGE_SECTION_TABLE       : EQUAL               
+2018/03/13 17:49:29 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2018/03/13 17:50:23 - Free resource success.
+
+
+2018/03/13 17:50:23 - Initialize global variables success.
+2018/03/13 17:50:23 - IMAGE_DOS_HEADER          : EQUAL               
+2018/03/13 17:50:23 - IMAGE_FILE_HEADER         : EQUAL               
+2018/03/13 17:50:23 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2018/03/13 17:50:23 - IMAGE_NT_HEADER           : EQUAL               
+2018/03/13 17:50:23 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2018/03/13 17:50:23 - IMAGE_SECTION_TABLE       : EQUAL               
+2018/03/13 17:50:23 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2018/03/13 17:51:01 - Save all resource icon success : 
+2018/03/13 17:54:16 - Free resource success.
+
+
+2018/05/26 15:48:25 - Free resource success.
+
+
+2018/05/26 15:48:25 - Initialize global variables success.
+2018/05/26 15:48:25 - IMAGE_DOS_HEADER          : EQUAL               
+2018/05/26 15:48:25 - IMAGE_FILE_HEADER         : EQUAL               
+2018/05/26 15:48:25 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2018/05/26 15:48:25 - IMAGE_NT_HEADER           : EQUAL               
+2018/05/26 15:48:25 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2018/05/26 15:48:25 - IMAGE_SECTION_TABLE       : EQUAL               
+2018/05/26 15:48:25 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2018/05/26 15:48:32 - Save all resource icon success : 
+2018/05/26 15:48:35 - Free resource success.
+
+
+2018/05/26 15:54:42 - Free resource success.
+
+
+2018/05/31 17:06:12 - Free resource success.
+
+
+2018/05/31 17:06:12 - Initialize global variables success.
+2018/05/31 17:06:12 - IMAGE_DOS_HEADER          : EQUAL               
+2018/05/31 17:06:12 - IMAGE_FILE_HEADER         : EQUAL               
+2018/05/31 17:06:12 - IMAGE_OPTIONAL_HEADER     : EQUAL               
+2018/05/31 17:06:12 - IMAGE_NT_HEADER           : EQUAL               
+2018/05/31 17:06:12 - IMAGE_DATA_DIRECTORY      : EQUAL               
+2018/05/31 17:06:12 - IMAGE_SECTION_TABLE       : EQUAL               
+2018/05/31 17:06:12 - IMAGE_RESOURCE_TABLE      : NOT EQUAL           
+2018/05/31 17:06:14 - IMAGE_EXPORT_TABLE        : EQUAL               
+2018/05/31 17:06:48 - Free resource success.
+
+

@@ -1,0 +1,145 @@
+
+wget  http://files.cnblogs.com/ma6174/vimrc.zip
+unzip  -f  vimrc.zip  -d  ~/
+
+
+git clone https://github.com/longld/peda.git ~/peda
+echo "source ~/peda/peda.py" >> ~/.gdbinit
+
+Ubunut 16.04显示桌面图标
+Alt+F2 -> dconf-edictor -> org -> gnome -> nautilus -> desktop -> 
+或者是终端输入：dconf-edictor -> org -> gnome -> nautilus -> desktop -> 
+
+apt-get install tree
+
+
+挂载分区：
+临时挂载:
+sudo mount /dev/sda2 disk2
+
+若要永久挂载，则修改 /etc/fstab
+(1)查看设备ID和设备类型：
+    ls -al /dev/disk/by-uuid/
+    sudo fdisk -l
+    sudo blkid
+(2)备份 /etc/fstab 文件:
+    cd /etc/
+    sudo cp fstab fstab_backup
+(3) 修改 /etc/fstab 文件:
+    sudo vi fstab
+    添加一项：  
+        /dev/sda2   /home/loccs/disk2   ntfs   defaults  0  0
+(4) 保存并测试：
+    :wq [Enter]
+    sudo mount -a
+(5) 第三步中的六个项目说明：
+    ：分区定位，可以给磁盘号，UUID或LABEL，例如：/dev/sda2，UUID=0000F1430002C3EC 或 LABEL=software 
+    : 具体挂载点的位置，例如：/home/loccs/disk2
+    : 挂载磁盘类型，linux分区一般为ext4，windows分区一般为ntfs 
+    : 挂载参数，一般为defaults 
+    : 磁盘备份，默认为0，不备份 
+    : 磁盘检查，默认为0，不检查 
+    
+
+Linux 64位系统上安装 32位程序的运行库：
+dpkg --print-architecture                          --> amd64
+dpkg --print-foreign-architectures                 --> i386
+sudo apt-get install gcc-multilib g++-multilib
+
+
+调整Swap分区大小：
+su root
+mkdir /swap   //swap在此目录下
+cd swap
+dd if=/dev/zero of=swapfile  bs=1M count=10K    //bs 为块大小,count为块的数量即分配1M*10K=10G swap
+mkswap swapfile //将生成的swapfile文件转换成Swap文件
+swapon swapfile //激活swap文件
+sudo gedit /etc/fstab
+/swap/swapfile /swap  swap defaults 0 0
+如果需要一直保持这个swap大小，则把它追加写入/etc/fstab文件：swapPath(到文件名)  /home/maxi/swap（挂载目录） swap defaults 0 0
+
+su root
+mkdir /swap
+cd /swap
+sudo dd if=/dev/zero of=swapfile  bs=1GB count=10
+sudo mkswap swapfile
+sudo swapon swapfile
+sudo gedit /etc/fstab
+/swap/swapfile /swap swap defaults 0 0
+
+
+1. 创建一个swap文件：
+
+      #mkdir swap   //swap在此目录下
+
+      #cd swap
+
+      #sudo dd if=/dev/zero of=swapfile  bs=1K count=2M    //bs 为块大小,count为块的数量即分配1K*2M=2G swap
+
+      #sudo mkswap swapfile //将生成的swapfile文件转换成Swap文件
+
+      #sudo swapon swapfile //激活swap文件
+
+     
+扩展：如果需要卸载这个swap文件则：#sudo swapoff swapfile
+
+            如果需要一直保持这个swap大小，则把它追加写入/etc/fstab文件：
+
+            swapPath(到文件名)  /home/maxi/swap（挂载目录） swap defaults 0 0
+
+            #sudo swapon -s //查看当前使用的swap文件名称、目录、大小、使用情况、优先级。
+			
+			
+
+
+【解决： Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)】
+sudo rm /var/cache/apt/archives/lock
+sudo rm /var/lib/dpkg/lock
+sudo dpkg --configure -a
+【sudo apt-get update】
+方法二： 看看谁在占用着 lock,然后再 kill
+sudo lsof /var/lib/dpkg/lock 
+
+
+
+【解决无法 import tensorflow 的问题】
+[需要激活tensorflow的环境]
+source ~/tensorflow/bin/activate
+[退出时取消激活]
+deactivate
+	
+    
+【解决VIM无法与系统交互的问题】
+需要安装图形化界面的vim
+sudo apt-get install vim-gnome
+打开vim输入:reg查看vim的寄存器，
+当支持clipboard之后，
+会多出"+寄存器，表示系统剪切板，
+在vim中进入visual视图后使用"Ny(N表示特定寄存器编好)，
+将内容复制到特定的剪切板，
+那么我们的目的是要复制到系统剪切板则需要选中内容后输入命令：
+"+y
+
+Reference:
+https://blog.csdn.net/zhangxiao93/article/details/53677764
+
+
+【Ubuntu 永久修改主机名】
+修改 etc/hostname 与/etc/hosts
+
+/etc/hostname与/etc/hosts的区别
+/etc/hostname中存放的是主机名，hostname文件的一个例子：
+v-jiwan-ubuntu-temp
+
+/etc/hosts存放的是域名与ip的对应关系，
+域名与主机名没有任何关系，
+你可以为任何一个IP指定任意一个名字，
+
+【vim tab设置为4个空格】
+set ts=4  (注：ts是tabstop的缩写，设TAB宽4个空格)
+set expandtab
+Ref： https://blog.csdn.net/jiang1013nan/article/details/6298727
+空格替换为TAB：
+:set ts=4
+:set expandtab
+:%retab!

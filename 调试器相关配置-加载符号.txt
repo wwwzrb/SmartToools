@@ -1,0 +1,3 @@
+IDA: [File]->[Load file]->[PDB file]->
+
+OD: [µ÷ÊÔ]->[Ñ¡Ôñ·ûºÅÂ·¾¶]->

@@ -1,0 +1,90 @@
+1、安装APK(如果加 -r 参数，保留已设定数据，重新安装filename.apk) 
+
+adb install xxx.apk  
+adb install -r xxx.apk  
+
+
+2、卸载APK(如果加 -k 参数，为卸载软件但是保留配置和缓存文件)
+
+adb uninstall xxx.apk
+adb uninstall -k xxx.apk
+
+
+3、查看当前所有连接的模拟器设备
+
+adb devices
+
+
+4、对某一模拟器操作 
+
+adb -s 模拟器编号 命令
+
+
+5、导入文件到模拟器 （该命令也可以实现安装APK，只要把APK导入到"/system/app"或者"/data/app"就OK）
+
+adb push 文件 模拟器路径
+
+
+6、从模拟器导出文件
+
+adb pull 模拟器文件 本地路径
+
+
+7、查看模拟器log信息
+
+adb logcat
+
+
+8、获取管理员权限
+
+adb root
+
+
+9、进入shell模式
+
+adb shell
+
+
+10、启动activity (adb shell后面跟的命令主要来自源码\system\core\toolbox目录和源码\frameworks\base\cmds目录)
+
+adb shell am start -n 包名/包名＋类名（-n 类名,-a action,-d date,-m MIME-TYPE,-c category,-e 扩展数据,等）
+
+
+11、获取设备ID号
+
+adb get-serialno
+
+12、开启adb服务
+
+adb start-server
+
+
+13、关闭adb服务
+
+adb kill-server
+
+
+14、访问sqlite3
+
+adb shell 
+
+sqlite3
+
+
+15、重启设备
+
+adb reboot
+
+
+16、挂在分区(可使系统分区重新可写)
+
+adb remount 
+
+
+17、发布端口（可以设置任意的端口号，做为主机向模拟器或设备的请求端口）
+
+adb forward tcp:5555 tcp:8000 
+
+18、关机命令
+
+adb shell reboot -p
